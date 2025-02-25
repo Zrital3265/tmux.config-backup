@@ -1,0 +1,29 @@
+# Basic TOML configuration for Alacritty
+[general]
+
+
+import = ["~/.config/alacritty/themes/themes/monokai_charcoal.toml"]  
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+opacity = 0.8
+dimensions.columns = 74
+dimensions.lines = 18
+
+[font]
+normal.family = "Ubuntu Mono"
+size = 10
+
+[cursor]
+style.shape = "Beam"
+style.blinking = "Always"
+
+[colors.cursor]
+# Set the cursor color to green
+cursor = "#00FF00"  # Green color for the cursor
+
+[colors.selection]
+text = "0xffffff"    # white text
+background = "0x476D7B"  # Light blueish highlight (adjust as needed)
