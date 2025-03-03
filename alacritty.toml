@@ -1,9 +1,6 @@
 # Basic TOML configuration for Alacritty
 [general]
 
-
-import = ["~/.config/alacritty/themes/themes/monokai_charcoal.toml"]  
-
 [env]
 TERM = "xterm-256color"
 
