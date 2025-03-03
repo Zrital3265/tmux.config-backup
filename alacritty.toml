@@ -27,3 +27,30 @@ cursor = "#00FF00"  # Green color for the cursor
 [colors.selection]
 text = "0xffffff"    # white text
 background = "0x476D7B"  # Light blueish highlight (adjust as needed)
+
+[colors.primary]
+background = "#000000"  # Dark background (adjust as needed)
+foreground = "#D0D0D0"  # Light text
+
+
+# Normal Colours
+[colors.normal]
+black   = '#1a1a1a'
+red     = '#f4005f'
+green   = '#00FC26'
+yellow  = '#fa8419'
+blue    = '#878DEB'
+magenta = '#f4005f'
+cyan    = '#878DEB'
+white   = '#c4c5b5'
+
+# Bright Colours
+[colors.bright]
+black   = '#625e4c'
+red     = '#f4005f'
+green   = '#00FC26'
+yellow  = '#e0d561'
+blue    = '#878DEB'
+magenta = '#f4005f'
+cyan    = '#878DEB'
+white   = '#f6f6ef'
